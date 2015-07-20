@@ -17,8 +17,6 @@ main_page_content = '''<!DOCTYPE html>
     <script src="main.js"></script>
 </head>
 <body>
-<!-- Preload div -->
-<div id="preload"></div>
 <!-- Trailer Video Modal -->
 <div class="modal" id="trailer">
     <div class="modal-dialog">
