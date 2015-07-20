@@ -6,6 +6,28 @@ body {
     padding-top: 80px;
 }
 
+/*Preload background images */
+#preload {
+    background: url('img/genre-tile/action.jpg');
+    background: url('img/genre-tile/action.jpg');
+    background: url('img/genre-tile/adventure.jpg');
+    background: url('img/genre-tile/all.jpg');
+    background: url('img/genre-tile/biography.jpg');
+    background: url('img/genre-tile/adventure.jpg');
+    background: url('img/genre-tile/comedy.jpg');
+    background: url('img/genre-tile/crime.jpg');
+    background: url('img/genre-tile/drama.jpg');
+    background: url('img/genre-tile/fantasy.jpg');
+    background: url('img/genre-tile/mystery.jpg');
+    background: url('img/genre-tile/romance.jpg');
+    background: url('img/genre-tile/sci-fi.jpg');
+    background: url('img/genre-tile/thriller.jpg');
+    background: url('img/genre-tile/western.jpg');
+    width: 0;
+    height: 0;
+    display: inline;
+}
+
 h2, .main-text {
     color: #fff;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
