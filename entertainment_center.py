@@ -14,7 +14,7 @@ boyhood = media.Movie("Boyhood",
                       "Richard Linklater",
                       "Richard Linklater",
                       "Ellar Coltrane, Patricia Arquette, Ethan Hawke",
-                      "http://ia.media-imdb.com/images/M/MV5BMTYzNDc2MDc0N15BMl5BanBnXkFtZTgwOTcwMDQ5MTE@._V1_SY317_CR0,0,214,317_AL_.jpg",
+                      "img/movies/boyhood.jpg",
                       "https://www.youtube.com/watch?v=Y0oX0xiwOv8")
 
 the_shawshank_redemption = media.Movie("The Shawshank Redemption",
@@ -29,7 +29,7 @@ the_shawshank_redemption = media.Movie("The Shawshank Redemption",
                                        "Frank Darabont",
                                        "Stephen King, Frank Darabont",
                                        "Tim Robbins, Morgan Freeman, Bob Gunto",
-                                       "http://ia.media-imdb.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX214_AL_.jpg",
+                                       "img/movies/the_shawshank_redemption.jpg",
                                        "https://www.youtube.com/watch?v=NmzuHjWmXOc")
                                        
 the_godfather = media.Movie("The Godfather",
@@ -44,7 +44,7 @@ the_godfather = media.Movie("The Godfather",
                             "Francis Ford Coppola",
                             "Mario Puzo, Francis Ford Coppola",
                             "Marlon Brando, Al Pacino, James Caan",
-                            "http://ia.media-imdb.com/images/M/MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX214_AL_.jpg",
+                            "img/movies/the_godfather.jpg",
                             "https://www.youtube.com/watch?v=YBrs0wvkPls")
 
 the_godfather_2 = media.Movie("The Godfather: Part II",
@@ -59,7 +59,7 @@ the_godfather_2 = media.Movie("The Godfather: Part II",
                               "Francis Ford Coppola",
                               "Francis Ford Coppola, Mario Puzo",
                               "Al Pacino, Robert De Niro, Robert Duvall",
-                              "http://ia.media-imdb.com/images/M/MV5BNDc2NTM3MzU1Nl5BMl5BanBnXkFtZTcwMTA5Mzg3OA@@._V1_SX214_AL_.jpg",
+                              "img/movies/the_godfather_2.jpg",
                               "https://www.youtube.com/watch?v=qJr92K_hKl0")
 
 the_dark_knight = media.Movie("The Dark Knight",
@@ -74,7 +74,7 @@ the_dark_knight = media.Movie("The Dark Knight",
                               "Christopher Nolan",
                               "Jonathan Nolan, Christopher Nolan",
                               "Christian Bale, Heath Ledger, Aaron Eckhart",
-                              "http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg",
+                              "img/movies/the_dark_knight.jpg",
                               "https://www.youtube.com/watch?v=yrJL5JxEYIw")
 
 pulp_fiction = media.Movie("Pulp Fiction",
@@ -89,7 +89,7 @@ pulp_fiction = media.Movie("Pulp Fiction",
                            "Quentin Tarantino",
                            "Quentin Tarantino, Roger Avary",
                            "John Travolta, Uma Thurman, Samuel L. Jackson",
-                           "http://ia.media-imdb.com/images/M/MV5BMjE0ODk2NjczOV5BMl5BanBnXkFtZTYwNDQ0NDg4._V1_SY317_CR4,0,214,317_AL_.jpg",
+                           "img/movies/pulp_fiction.jpg",
                            "https://www.youtube.com/watch?v=ewlwcEBTvcg")
 
 schindlers_list = media.Movie("Schindler's List",
@@ -104,7 +104,7 @@ schindlers_list = media.Movie("Schindler's List",
                               "Steven Spielberg",
                               "Thomas Keneally, Steven Zaillian",
                               "Liam Neeson, Ralph Fiennes, Ben Kingsley",
-                              "http://ia.media-imdb.com/images/M/MV5BMzMwMTM4MDU2N15BMl5BanBnXkFtZTgwMzQ0MjMxMDE@._V1_SX214_AL_.jpg",
+                              "img/movies/schindlers_list.jpg",
                               "https://www.youtube.com/watch?v=JdRGC-w9syA")
 
 twelve_angry_men = media.Movie("12 Angry Men",
@@ -119,7 +119,7 @@ twelve_angry_men = media.Movie("12 Angry Men",
                                "Sidney Lumet",
                                "Reginald Rose",
                                "Henry Fonda, Lee J. Cobb, Martin Balsam",
-                               "http://ia.media-imdb.com/images/M/MV5BODQwOTc5MDM2N15BMl5BanBnXkFtZTcwODQxNTEzNA@@._V1_SX214_AL_.jpg",
+                               "img/movies/twelve_angry_men.jpg",
                                "https://www.youtube.com/watch?v=fSG38tk6TpI")
 
 the_good_bad_ugly = media.Movie("The Good, the Bad and the Ugly",
@@ -134,7 +134,7 @@ the_good_bad_ugly = media.Movie("The Good, the Bad and the Ugly",
                                 "Sergio Leone",
                                 "Luciano Vincenzoni, Sergio Leone",
                                 "Clint Eastwood, Eli Wallach, Lee Van Cleef",
-                                "http://ia.media-imdb.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_SX214_AL_.jpg",
+                                "img/movies/the_good_bad_ugly.jpg",
                                 "https://www.youtube.com/watch?v=WCN5JJY_wiA")
 
 the_lord_of_the_rings_the_return_of_the_king = media.Movie("The Lord of the Rings: The Return of the King",
@@ -149,7 +149,7 @@ the_lord_of_the_rings_the_return_of_the_king = media.Movie("The Lord of the Ring
                                                            "Peter Jackson",
                                                            "J.R.R. Tolkien, Fran Walsh",
                                                            "Elijah Wood, Viggo Mortensen, Ian McKellen",
-                                                           "http://ia.media-imdb.com/images/M/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1_SX214_AL_.jpg",
+                                                           "img/movies/the_lord_of_the_rings_the_return_of_the_king.jpg",
                                                            "https://www.youtube.com/watch?v=r5X-hFf6Bwo")
 
 fight_club = media.Movie("Fight Club",
@@ -164,7 +164,7 @@ fight_club = media.Movie("Fight Club",
                          "David Fincher",
                          "Chuck Palahniuk, Jim Uhls",
                          "Brad Pitt, Edward Norton, Helena Bonham Carter",
-                         "http://ia.media-imdb.com/images/M/MV5BMjIwNTYzMzE1M15BMl5BanBnXkFtZTcwOTE5Mzg3OA@@._V1_SX214_AL_.jpg",
+                         "img/movies/fight_club.jpg",
                          "https://www.youtube.com/watch?v=SUXWAEX2jlg")
 
 the_lord_of_the_rings_the_fellowship_of_the_ring = media.Movie("The Lord of the Rings: The Fellowship of the Ring",
@@ -179,7 +179,7 @@ the_lord_of_the_rings_the_fellowship_of_the_ring = media.Movie("The Lord of the 
                                                                "Peter Jackson",
                                                                "J.R.R. Tolkien, Fran Walsh",
                                                                "Elijah Wood, Ian McKellen, Orlando Bloom",
-                                                               "http://ia.media-imdb.com/images/M/MV5BNTEyMjAwMDU1OV5BMl5BanBnXkFtZTcwNDQyNTkxMw@@._V1_SY317_CR1,0,214,317_AL_.jpg",
+                                                               "img/movies/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg",
                                                                "https://www.youtube.com/watch?v=V75dMMIW2B4")
 
 star_wars_ep_five_the_empire_strikes_back = media.Movie("Star Wars: Episode V - The Empire Strikes Back",
@@ -194,7 +194,7 @@ star_wars_ep_five_the_empire_strikes_back = media.Movie("Star Wars: Episode V - 
                                                         "Irvin Kershner",
                                                         "Leigh Brackett, Lawrence Kasdan",
                                                         "Mark Hamill, Harrison Ford, Carrie Fisher",
-                                                        "http://ia.media-imdb.com/images/M/MV5BMjE2MzQwMTgxN15BMl5BanBnXkFtZTcwMDQzNjk2OQ@@._V1_SY317_CR0,0,214,317_AL_.jpg",
+                                                        "img/movies/star_wars_ep_five_the_empire_strikes_back.jpg",
                                                         "https://www.youtube.com/watch?v=JNwNXF9Y6kY")
 
 forrest_gump = media.Movie("Forrest Gump",
@@ -209,7 +209,7 @@ forrest_gump = media.Movie("Forrest Gump",
                            "Robert Zemeckis",
                            "Winston Groom, Eric Roth",
                            "Tom Hanks, Robin Wright, Gary Sinise",
-                           "http://ia.media-imdb.com/images/M/MV5BMTQwMTA5MzI1MF5BMl5BanBnXkFtZTcwMzY5Mzg3OA@@._V1_SX214_AL_.jpg",
+                           "img/movies/forrest_gump.jpg",
                            "https://www.youtube.com/watch?v=YNh9Es8Ut6U")
 
 inception = media.Movie("Inception",
@@ -224,7 +224,7 @@ inception = media.Movie("Inception",
                         "Christopher Nolan",
                         "Christopher Nolan",
                         "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
-                        "http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX214_AL_.jpg",
+                        "img/movies/inception.jpg",
                         "https://www.youtube.com/watch?v=8hP9D6kZseM")
 
 one_flew_over_the_cuckoos_nest = media.Movie("One Flew Over the Cuckoo's Nest",
@@ -239,7 +239,7 @@ one_flew_over_the_cuckoos_nest = media.Movie("One Flew Over the Cuckoo's Nest",
                                              "Milos Forman",
                                              "Lawrence Hauben, Bo Goldman",
                                              "Jack Nicholson, Louise Fletcher, Michael Berryman",
-                                             "http://ia.media-imdb.com/images/M/MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg",
+                                             "img/movies/one_flew_over_the_cuckoos_nest.jpg",
                                              "https://www.youtube.com/watch?v=bzNk3tjGwt8")
 
 the_lord_of_the_rings_the_two_towers = media.Movie("The Lord of the Rings: The Two Towers",
@@ -254,7 +254,7 @@ the_lord_of_the_rings_the_two_towers = media.Movie("The Lord of the Rings: The T
                                                    "Peter Jackson",
                                                    "J.R.R. Tolkien, Fran Walsh",
                                                    "Elijah Wood, Ian McKellen, Viggo Mortensen",
-                                                   "http://ia.media-imdb.com/images/M/MV5BMTAyNDU0NjY4NTheQTJeQWpwZ15BbWU2MDk4MTY2Nw@@._V1_SY317_CR1,0,214,317_AL_.jpg",
+                                                   "img/movies/the_lord_of_the_rings_the_two_towers.jpg",
                                                    "https://www.youtube.com/watch?v=LbfMDwc4azU")
 
 goodfellas = media.Movie("Goodfellas",
@@ -269,7 +269,7 @@ goodfellas = media.Movie("Goodfellas",
                          "Martin Scorsese",
                          "Nicholas Pileggi, Nicholas Pileggi",
                          "Robert De Niro, Ray Liotta, Joe Pesci",
-                         "http://ia.media-imdb.com/images/M/MV5BMTY2OTE5MzQ3MV5BMl5BanBnXkFtZTgwMTY2NTYxMTE@._V1_SX214_AL_.jpg",
+                         "img/movies/goodfellas.jpg",
                          "https://www.youtube.com/watch?v=qo5jJpHtI1Y")
 
 the_matrix = media.Movie("The Matrix",
@@ -284,7 +284,7 @@ the_matrix = media.Movie("The Matrix",
                          "Andy Wachowski",
                          "Andy Wachowski, Lana Wachowski",
                          "Keanu Reeves, Laurence Fishburne, Carrie-Anne",
-                         "http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1_SX214_AL_.jpg",
+                         "img/movies/the_matrix.jpg",
                          "https://www.youtube.com/watch?v=m8e-FF8MsqU")
 
 star_wars_ep_four_a_new_hope = media.Movie("Star Wars: Episode IV - A New Hope",
@@ -299,7 +299,7 @@ star_wars_ep_four_a_new_hope = media.Movie("Star Wars: Episode IV - A New Hope",
                                            "George Lucas",
                                            "George Lucas",
                                            "Mark Hamill, Harrison Ford, Carrie Fisher",
-                                           "http://ia.media-imdb.com/images/M/MV5BMTU4NTczODkwM15BMl5BanBnXkFtZTcwMzEyMTIyMw@@._V1_SX214_AL_.jpg",
+                                           "img/movies/star_wars_ep_four_a_new_hope.jpg",
                                            "https://www.youtube.com/watch?v=xioILbwDlEg")
 
 seven_samurai = media.Movie("Seven Samurai",
@@ -314,7 +314,7 @@ seven_samurai = media.Movie("Seven Samurai",
                             "Akira Kurosawa",
                             "Akira Kurosawa, Shinobu Hashimoto",
                             "Toshiro Mifune, Takashi Shimura, Keiko Tsushima",
-                            "http://ia.media-imdb.com/images/M/MV5BMTc5MDY1MjU5MF5BMl5BanBnXkFtZTgwNDM2OTE4MzE@._V1_SY317_CR6,0,214,317_AL_.jpg",
+                            "img/movies/seven_samurai.jpg",
                             "https://www.youtube.com/watch?v=xnRUHtSgJ9o")
 
 city_of_god = media.Movie("City of God",
@@ -329,7 +329,7 @@ city_of_god = media.Movie("City of God",
                           "Fernanda Meirelles, Katia Lund",
                           "Paulo Lins, Braulio Mantovani",
                           "Alexandra Rodrigues, Matheus Nachtergaele, Leandro Firmino",
-                          "http://ia.media-imdb.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX214_AL_.jpg",
+                          "img/movies/city_of_god.jpg",
                           "https://www.youtube.com/watch?v=dcUOO4Itgmw")
 
 seven = media.Movie("Se7en",
@@ -344,7 +344,7 @@ seven = media.Movie("Se7en",
                     "David Fincher",
                     "Andrew Kevin Walker",
                     "Morgan Freeman, Brad Pitt, Kevin Spacey",
-                    "http://ia.media-imdb.com/images/M/MV5BMTQwNTU3MTE4NF5BMl5BanBnXkFtZTcwOTgxNDM2Mg@@._V1_SX214_AL_.jpg",
+                    "img/movies/seven.jpg",
                     "https://www.youtube.com/watch?v=TmZbLbPv6Fs")
 
 the_silence_of_the_lambs = media.Movie("The Silence of the Lambs",
@@ -359,7 +359,7 @@ the_silence_of_the_lambs = media.Movie("The Silence of the Lambs",
                                        "Jonathan Demme",
                                        "Thomas Harris, Ted Tally",
                                        "Jodie Foster, Anthony Hopkins, Lawrence A. Bonney",
-                                       "http://ia.media-imdb.com/images/M/MV5BMTQ2NzkzMDI4OF5BMl5BanBnXkFtZTcwMDA0NzE1NA@@._V1_SX214_AL_.jpg",
+                                       "img/movies/the_silence_of_the_lambs.jpg",
                                        "https://www.youtube.com/watch?v=lQKs169Sl0I")
 
 the_usual_suspects = media.Movie("The Usual Suspects",
@@ -374,7 +374,7 @@ the_usual_suspects = media.Movie("The Usual Suspects",
                                  "Bryan Singer",
                                  "Christopher McQuarrie",
                                  "Kevin Spacey, Gabriel Byrne, Chazz Palminteri",
-                                 "http://ia.media-imdb.com/images/M/MV5BMzI1MjI5MDQyOV5BMl5BanBnXkFtZTcwNzE4Mjg3NA@@._V1_SX214_AL_.jpg",
+                                 "img/movies/the_usual_suspects.jpg",
                                  "https://www.youtube.com/watch?v=oiXdPolca5w")
 
 inside_out = media.Movie("Inside Out",
@@ -389,7 +389,7 @@ inside_out = media.Movie("Inside Out",
                          "Pete Docter, Ronaldo Del Carmen",
                          "Pete Docter, Ronaldo Del Carmen",
                          "Amy Poehler, Bill Hader, Lewis Black",
-                         "http://ia.media-imdb.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX214_AL_.jpg",
+                         "img/movies/inside_out.jpg",
                          "https://www.youtube.com/watch?v=seMwpP0yeu4")
 
 back_to_the_future = media.Movie("Back to the Future",
@@ -404,7 +404,7 @@ back_to_the_future = media.Movie("Back to the Future",
                                  "Robert Zemeckis",
                                  "Robert Zemeckis, Bob Gale",
                                  "Michael J. Fox, Christopher Lloyd, Lea Thompson",
-                                 "http://ia.media-imdb.com/images/M/MV5BMjA5NTYzMDMyM15BMl5BanBnXkFtZTgwNjU3NDU2MTE@._V1_SX214_AL_.jpg",
+                                 "img/movies/back_to_the_future.jpg",
                                  "https://www.youtube.com/watch?v=qvsgGtivCgs")
 
 life_is_beautiful = media.Movie("Life Is Beautiful",
@@ -419,7 +419,7 @@ life_is_beautiful = media.Movie("Life Is Beautiful",
                                 "Roberto Benigni",
                                 "Vincenzo Cerami, Roberto Benigni",
                                 "Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini",
-                                "http://ia.media-imdb.com/images/M/MV5BMTQwMTM2MjE4Ml5BMl5BanBnXkFtZTgwODQ2NTYxMTE@._V1_SX214_AL_.jpg",
+                                "img/movies/life_is_beautiful.jpg",
                                 "https://www.youtube.com/watch?v=pAYEQP8gx3w")
 
 ted = media.Movie("Ted",
@@ -434,7 +434,7 @@ ted = media.Movie("Ted",
                   "Seth MacFarlane",
                   "Seth MacFarlane, Alec Sulkin",
                   "Mark Wahlberg, Mila Kunis, Seth MacFarlane",
-                  "http://ia.media-imdb.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_SX214_AL_.jpg",
+                  "img/movies/ted.jpg",
                   "https://www.youtube.com/watch?v=9fbo_pQvU7M")
 
 the_lone_ranger = media.Movie("The Lone Ranger",
@@ -449,7 +449,7 @@ the_lone_ranger = media.Movie("The Lone Ranger",
                               "Gore Verbinski",
                               "Justin Haythe, Ted Elliot",
                               "Johnny Depp, Armie Hammer, William Fichtner",
-                              "http://ia.media-imdb.com/images/M/MV5BMjI3Mjk5MTUxOV5BMl5BanBnXkFtZTcwNTMyNzY3OQ@@._V1_SX214_AL_.jpg",
+                              "img/movies/the_lone_ranger.jpg",
                               "https://www.youtube.com/watch?v=JjFsNSoDZK8")
 
 slow_west = media.Movie("Slow West",
@@ -464,7 +464,7 @@ slow_west = media.Movie("Slow West",
                         "John Maclean",
                         "John Maclean",
                         "Kodi Smit-McPhee, Michael Fassbender, Ben Mendelsohn",
-                        "http://ia.media-imdb.com/images/M/MV5BNTYxNDA5ODk5NF5BMl5BanBnXkFtZTgwNzMwMzIwNTE@._V1_SX214_AL_.jpg",
+                        "img/movies/slow_west.jpg",
                         "https://www.youtube.com/watch?v=pFfsTsdJfF8")
 
 # movie list
