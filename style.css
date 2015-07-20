@@ -6,28 +6,6 @@ body {
     padding-top: 80px;
 }
 
-/*Preload background images */
-#preload {
-    background: url('img/genre-tile/action.jpg');
-    background: url('img/genre-tile/action.jpg');
-    background: url('img/genre-tile/adventure.jpg');
-    background: url('img/genre-tile/all.jpg');
-    background: url('img/genre-tile/biography.jpg');
-    background: url('img/genre-tile/adventure.jpg');
-    background: url('img/genre-tile/comedy.jpg');
-    background: url('img/genre-tile/crime.jpg');
-    background: url('img/genre-tile/drama.jpg');
-    background: url('img/genre-tile/fantasy.jpg');
-    background: url('img/genre-tile/mystery.jpg');
-    background: url('img/genre-tile/romance.jpg');
-    background: url('img/genre-tile/sci-fi.jpg');
-    background: url('img/genre-tile/thriller.jpg');
-    background: url('img/genre-tile/western.jpg');
-    width: 0;
-    height: 0;
-    display: inline;
-}
-
 h2, .main-text {
     color: #fff;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
@@ -125,7 +103,6 @@ h2, .main-text {
 }
 
 #genre-tile-all:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/all.jpg');
     background-position: -20px -20px;
 }
 
@@ -135,7 +112,6 @@ h2, .main-text {
 }
 
 #genre-tile-drama:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/drama.jpg');
     background-position: -20px -20px;
 }
 
@@ -145,7 +121,6 @@ h2, .main-text {
 }
 
 #genre-tile-crime:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/crime.jpg');
     background-position: -20px -20px;
 }
 
@@ -155,7 +130,6 @@ h2, .main-text {
 }
 
 #genre-tile-action:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/action.jpg');
     background-position: -151px -20px;
 }
 
@@ -165,7 +139,6 @@ h2, .main-text {
 }
 
 #genre-tile-adventure:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/adventure.jpg');
     background-position: -155px -96px;
 }
 
@@ -175,7 +148,6 @@ h2, .main-text {
 }
 
 #genre-tile-fantasy:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/fantasy.jpg');
     background-position: -124px -20px;
 }
 
@@ -185,7 +157,6 @@ h2, .main-text {
 }
 
 #genre-tile-biography:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/biography.jpg');
     background-position: -63px -137px;
 }
 
@@ -195,7 +166,6 @@ h2, .main-text {
 }
 
 #genre-tile-sci-fi:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/sci-fi.jpg');
     background-position: -225px -20px;
 }
 
@@ -205,7 +175,6 @@ h2, .main-text {
 }
 
 #genre-tile-mystery:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/mystery.jpg');
     background-position: -128px -92px;
 }
 
@@ -215,7 +184,6 @@ h2, .main-text {
 }
 
 #genre-tile-thriller:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/thriller.jpg');
     background-position: -104px -53px;
 }
 
@@ -225,7 +193,6 @@ h2, .main-text {
 }
 
 #genre-tile-western:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/western.jpg');
     background-position: -128px -81px;
 }
 
@@ -235,7 +202,6 @@ h2, .main-text {
 }
 
 #genre-tile-romance:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/romance.jpg');
     background-position: -190px -21px;
 }
 
@@ -245,7 +211,6 @@ h2, .main-text {
 }
 
 #genre-tile-comedy:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/comedy.jpg');
     background-position: -198px -92px;
 }
 
