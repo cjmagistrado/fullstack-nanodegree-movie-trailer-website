@@ -8,5 +8,9 @@
 ## Link to live site
 http://cjmagistrado.github.io/fullstack-nanodegree-movie-trailer-website/
 
+## Credits
+Icons from http://flaticon.com 
+(Wasn't able to include the individual authors of the icons because I lost it, sorry)
+
 ## Sources
 http://imdb.com
