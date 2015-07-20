@@ -2,22 +2,30 @@
 // initialize movies array
 var movies = [];
 
-(function() {
-    try {
-        var $_console$$ = console;
-        Object.defineProperty(window, "console", {
-            get: function() {
-                if ($_console$$._commandLineAPI)
-                    throw "Sorry, for security reasons, the script console is deactivated on netflix.com";
-                return $_console$$
-            },
-            set: function($val$$) {
-                $_console$$ = $val$$
-            }
-        })
-    } catch ($ignore$$) {
-    }
-})();
+// preload images
+var preload = function(array){
+    var images = [];
+    $(array).each(function(i){
+        images[i] = new Image();
+        images[i].src = array[i];
+	   });
+};
+
+$(document).ready(function() {
+    preload(['img/genre-tile/action.jpg',
+             'img/genre-tile/adventure.jpg',
+             'img/genre-tile/all.jpg',
+             'img/genre-tile/biography.jpg',
+             'img/genre-tile/comedy.jpg',
+             'img/genre-tile/crime.jpg',
+             'img/genre-tile/drama.jpg',
+             'img/genre-tile/fantasy.jpg',
+             'img/genre-tile/mystery.jpg',
+             'img/genre-tile/romance.jpg',
+             'img/genre-tile/sci-fi.jpg',
+             'img/genre-tile/thriller.jpg',
+             'img/genre-tile/western.jpg']);
+});
 
 // Pause the video when the modal is closed
 $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
