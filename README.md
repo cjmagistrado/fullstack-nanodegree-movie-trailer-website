@@ -9,7 +9,7 @@
 http://cjmagistrado.github.io/fullstack-nanodegree-movie-trailer-website/
 
 ## Credits
-Icons from http://flaticon.com 
+Icons from http://flaticon.com </br>
 (Wasn't able to include the individual authors of the icons because I lost it, sorry)
 
 ## Sources
