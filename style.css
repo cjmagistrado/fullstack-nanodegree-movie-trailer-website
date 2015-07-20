@@ -6,6 +6,25 @@ body {
     padding-top: 80px;
 }
 
+/*Preload background images */
+body:after{
+    display:none;
+    content: url(img/genre-tile/action.jpg) 
+             url(img/genre-tile/adventure.jpg) 
+             url(img/genre-tile/all.jpg) 
+             url(img/genre-tile/biography.jpg)
+             url(img/genre-tile/adventure.jpg) 
+             url(img/genre-tile/comedy.jpg) 
+             url(img/genre-tile/crime.jpg)
+             url(img/genre-tile/drama.jpg) 
+             url(img/genre-tile/fantasy.jpg) 
+             url(img/genre-tile/mystery.jpg)
+             url(img/genre-tile/romance.jpg) 
+             url(img/genre-tile/sci-fi.jpg) 
+             url(img/genre-tile/thriller.jpg) 
+             url(img/genre-tile/western.jpg);
+}
+
 h2, .main-text {
     color: #fff;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
