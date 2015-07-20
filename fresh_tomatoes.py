@@ -122,6 +122,7 @@ main_page_content = '''<!DOCTYPE html>
 </body>
 </html>
 {movie_data}
+<script> preload(movies); </script>
 '''
 
 # A single movie entry html template
