@@ -51,14 +51,23 @@ $(document).on('click', '.btn-back', function(event) {
     }
 });
 
-// Select movie genre
+// Back to home page(genre section) + transition
+$(document).on('click' , '.navbar-brand', function() {
+    $('#info-section').fadeOut(500);
+    $('#main-section').fadeOut(500);
+    setTimeout(function() {
+        $('#genre-section').fadeIn(500);
+    }, 1000);
+});
+
+// Select movie genre + transition
 $(document).on('click', '.genre-tile', function (event) {
     var genre = event.currentTarget.dataset.genre;
     $('#genre-section').fadeOut(500);
     load(genre);
 });
 
-// To movie info section
+// To movie info section + transition
 $(document).on('click', '.movie-tile', function(event) {
     $('#main-section').fadeOut(500);
     setTimeout(function() {
@@ -76,7 +85,7 @@ var getMovie = function(title) {
     }
 };
 
-// Update movie info in info section
+// Updates movie info in info section, filling in the blanks via div id
 var updateInfo = function(movie) {
     // update movie poster image
     $('#info-movie-img').attr('src', movie.image_url);
@@ -127,7 +136,7 @@ var updateInfo = function(movie) {
     $('#btn-watch-trailer').attr('data-trailer-youtube-id', youtubeID);
 };
 
-// Load movies
+// Load movies + transition
 var load = function(genre) {
     setTimeout(function() {
         $('#main-section').show();
@@ -139,7 +148,9 @@ var load = function(genre) {
     }, 1000);
 };
 
-// Append movies
+// Append movies to array "listMovies"
+// Grabs specific movies via genre
+// If genre value = 'All', grab all movies
 var listMovies = function(genre, callback) {
  
     $('#main-section').empty();
