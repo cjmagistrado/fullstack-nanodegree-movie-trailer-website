@@ -1,3 +1,5 @@
+# Movie Trailer Website
+
 ## Usage
 (Running Python)
 * Open *entertainment_center.py*
