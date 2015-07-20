@@ -1,0 +1,383 @@
+@charset "utf-8";
+
+body {
+    background: url('img/background.gif') center top #000;
+    background-attachment: fixed;
+    padding-top: 80px;
+}
+
+h2, .main-text {
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+#main-section h2 {
+    font-size: 14px;
+}
+
+#main-section,
+#info-section {
+    display: none;
+}
+
+.movie-img {
+	   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	   -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	   -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	   -o-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.main-text {
+    padding-bottom: 8px;
+}
+
+.modal-content,
+#trailer-video-container {
+    background: #000;
+}
+
+#trailer .modal-dialog {
+    margin-top: 200px;
+    width: 640px;
+    height: 480px;
+}
+
+.hanging-close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 9001;
+}
+
+#trailer-video {
+    width: 100%;
+    height: 100%;
+}
+
+.movie-tile {
+    display: none;
+}
+
+.movie-tile,
+.genre-tile {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.movie-tile:hover,
+.genre-tile:hover {
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.genre-tile {
+	   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+	   -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+	   -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+	   -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+
+#genre-tile-all,
+#genre-tile-drama,
+#genre-tile-crime,
+#genre-tile-action,
+#genre-tile-adventure,
+#genre-tile-fantasy,
+#genre-tile-biography,
+#genre-tile-sci-fi,
+#genre-tile-mystery,
+#genre-tile-thriller,
+#genre-tile-western,
+#genre-tile-romance,
+#genre-tile-comedy {
+    transition: background-position 1s;
+    -webkit-transition: background-position 1s;
+    -moz-transition: background-position 1s;
+    -o-transition: background-position 1s;
+}
+
+#genre-tile-all {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/all.jpg');
+    background-position: 0 0;
+}
+
+#genre-tile-all:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/all.jpg');
+    background-position: -20px -20px;
+}
+
+#genre-tile-drama {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/drama.jpg');
+    background-position: 0 0;
+}
+
+#genre-tile-drama:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/drama.jpg');
+    background-position: -20px -20px;
+}
+
+#genre-tile-crime {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/crime.jpg');
+    background-position: 0 0;
+}
+
+#genre-tile-crime:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/crime.jpg');
+    background-position: -20px -20px;
+}
+
+#genre-tile-action {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/action.jpg');
+    background-position: -131px 0;
+}
+
+#genre-tile-action:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/action.jpg');
+    background-position: -151px -20px;
+}
+
+#genre-tile-adventure {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/adventure.jpg');
+    background-position: -125px -76px;
+}
+
+#genre-tile-adventure:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/adventure.jpg');
+    background-position: -155px -96px;
+}
+
+#genre-tile-fantasy {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/fantasy.jpg');
+    background-position: -104px 0;
+}
+
+#genre-tile-fantasy:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/fantasy.jpg');
+    background-position: -124px -20px;
+}
+
+#genre-tile-biography {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/biography.jpg');
+    background-position: -43px -117px;
+}
+
+#genre-tile-biography:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/biography.jpg');
+    background-position: -63px -137px;
+}
+
+#genre-tile-sci-fi {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/sci-fi.jpg');
+    background-position: -205px 0;
+}
+
+#genre-tile-sci-fi:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/sci-fi.jpg');
+    background-position: -225px -20px;
+}
+
+#genre-tile-mystery {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/mystery.jpg');
+    background-position: -108px -72px;
+}
+
+#genre-tile-mystery:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/mystery.jpg');
+    background-position: -128px -92px;
+}
+
+#genre-tile-thriller {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/thriller.jpg');
+    background-position: -84px -33px;
+}
+
+#genre-tile-thriller:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/thriller.jpg');
+    background-position: -104px -53px;
+}
+
+#genre-tile-western {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/western.jpg');
+    background-position: -108px -61px;
+}
+
+#genre-tile-western:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/western.jpg');
+    background-position: -128px -81px;
+}
+
+#genre-tile-romance {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/romance.jpg');
+    background-position: -170px -1px;
+}
+
+#genre-tile-romance:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/romance.jpg');
+    background-position: -190px -21px;
+}
+
+#genre-tile-comedy {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/genre-tile/comedy.jpg');
+    background-position: -178px -72px;
+}
+
+#genre-tile-comedy:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('img/genre-tile/comedy.jpg');
+    background-position: -198px -92px;
+}
+
+.scale-media {
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.scale-media iframe {
+    border: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+#movie-year {
+    font-size: 18px;
+    color: #f60;
+}
+
+.sub-info {
+    font-size: 16px;
+    padding: 0 0 0 1px !important;
+}
+
+#movie-storyline {
+    margin-top: 8px;
+}
+
+.movie-rating {
+    margin-top: 8px;
+    padding: 0 !important;
+}
+
+#movie-star-rating {
+    overflow: hidden;
+}
+
+.star-empty,
+.star,
+.star-half {
+    background: url('img/star-rating.png');
+    background-position: 0 0;
+    width: 16px;
+    height: 16px;
+    margin: 1px 5px 0 0;
+    float: left;
+}
+
+.star {
+    background-position: -16px 0;
+}
+
+.star-half {
+    background-position: 16px 0;
+}
+
+div[role=button] {
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.btn-back {
+    background: #373737;
+    padding: 5px 10px;
+    margin: 8px 0 12px 0;
+    float: right;
+}
+
+.btn-back:hover {
+    background: #424242;
+}
+
+#btn-watch-trailer {
+    background: #f60;
+    padding: 10px 15px;
+    float: left;
+}
+
+#btn-watch-trailer:hover {
+    background: #e59519;
+}
+
+#genre-section {
+    margin-top: 30px;
+    padding-bottom: 200px;
+}
+
+.genre-icon {
+    background: url('img/genre.png');
+    width: 199px;
+    height: 199px;
+    margin: -19px auto -19px auto;
+}
+
+#genre-icon-all {
+    background-position: -1px -1px;
+}
+
+#genre-icon-drama {
+    background-position: -201px -1px;
+}
+
+#genre-icon-crime {
+    background-position: -401px -1px;
+}
+
+#genre-icon-action {
+    background-position: -601px -1px;
+}
+
+#genre-icon-adventure {
+    background-position: -801px -1px;
+}
+
+#genre-icon-fantasy {
+    background-position: -1001px -1px;
+}
+
+#genre-icon-biography {
+    background-position: -1px -201px;
+}
+
+#genre-icon-sci-fi {
+    background-position: -201px -201px;
+}
+
+#genre-icon-mystery {
+    background-position: -401px -201px;
+}
+
+#genre-icon-mystery {
+    background-position: -401px -201px;
+}
+
+#genre-icon-thriller {
+    background-position: -601px -201px;
+}
+
+#genre-icon-western {
+    background-position: -801px -201px;
+}
+
+#genre-icon-romance {
+    background-position: -1001px -201px;
+}
+
+#genre-icon-comedy {
+    background-position: -1px -401px;
+}
