@@ -164,7 +164,7 @@ var listMovies = function(genre, callback) {
     if (genre === "All") {
         for (movie in movies) {
             $('#main-section').append(
-            '<div class="col-md-6 col-lg-4 movie-tile text-center">'+
+            '<div class="col-md-6 col-lg-4 movie-tile text-center" data-title="'+movies[movie].title+'">'+
                 '<img src="'+movies[movie].image_url+'" class="movie-img" width="220" height="342">'+
                 '<h2>'+movies[movie].title+'</h2>'+
             '</div>'
