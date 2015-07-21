@@ -47,7 +47,7 @@ class Movie():
             #Get genre(s)
             genre_list = []
             for genre in movie_genre:
-            genre_list.append(self.GENRES[genre])
+                genre_list.append(self.GENRES[genre])
 
             # Genre
             self.genre = genre_list
