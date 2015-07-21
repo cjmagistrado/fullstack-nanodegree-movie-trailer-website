@@ -1,6 +1,14 @@
+#!/usr/bin/env python
 import webbrowser
 import os
 import re
+
+__author__ = "Christopher J Magistrado"
+__credits__ = "Udacity"
+__licens__ = "GPL"
+__version__ = "1.0.0"
+__email__ = "cjmagistrado@mail.com"
+__status__ = "Prototype"
 
 # The main page layout, title bar, styles and scripting for the page
 main_page_content = '''<!DOCTYPE html>
