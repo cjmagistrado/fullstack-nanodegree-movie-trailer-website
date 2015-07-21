@@ -1,4 +1,5 @@
 # Movie Trailer Website
+Server-side code to store a list of favorite movies, including box art imagery and a movie trailer URL.
 
 ## Usage
 (Running Python)
@@ -13,4 +14,5 @@ Icons from http://flaticon.com </br>
 (Wasn't able to include the individual authors of the icons because I lost it, sorry)
 
 ## Sources
-http://imdb.com
+http://imdb.com </br>
+Based on Top movies including some randoms.
