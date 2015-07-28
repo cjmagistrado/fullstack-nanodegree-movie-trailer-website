@@ -3,7 +3,7 @@ Server-side code to store a list of favorite movies, including box art imagery a
 
 ## Usage
 (Running Python)
-* Open *entertainment_center.py*
+* Open `entertainment_center.py`
 * Run
 
 ## Link to live site
