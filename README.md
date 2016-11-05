@@ -7,7 +7,7 @@ Server-side code to store a list of favorite movies, including box art imagery a
 * Run
 
 ## Link to live site
-http://cjmagistrado.github.io/fullstack-nanodegree-movie-trailer-website/
+http://cjmagistrado.github.io/movie-trailer-website/
 
 ## Credits
 Icons from http://flaticon.com </br>
